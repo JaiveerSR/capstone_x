@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git url: 'https://github.com/JaiveerSR/capstone_x.git', branch: 'master'
+                git url: 'https://github.com/JaiveerSR/capstone_x.git', branch: 'main'
             }
         }
         stage('Build Docker Image') {
